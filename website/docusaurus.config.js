@@ -43,6 +43,8 @@ module.exports = {
           path: '../contents',
           routeBasePath: '',
           sidebarPath: require.resolve('./sidebars.js'),
+          showLastUpdateBy: true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
